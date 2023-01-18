@@ -1,0 +1,446 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;400;500&family=Slabo+13px&display=swap');
+
+
+.none{
+    display: none;
+}
+
+.container{
+    max-width: 1730px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+body{
+    background-color: #F4F2DD;
+}
+
+a{
+    transition: color 0.2s ease-in;
+}
+
+a:hover{
+    color: rgb(192, 187, 187);
+}
+
+.logo{
+    font-family: 'Kodchasan';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000000;
+}
+
+/* header */
+
+.header{
+    margin-top: 82px;
+}
+
+.header-logo{
+    margin-right: auto;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+    column-gap: 118px;
+}
+
+
+.header-list-link{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* mobile-nav */
+
+.mobile-navBtn{
+    display: none;
+}
+
+.mobile-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #F4F2DD;
+    padding: 100px;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 150px;
+}
+
+.mobile-nav-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+}
+
+.mobile-nav-close{
+    font-size: 100px;
+}
+
+.mobile-list-link{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 105px;
+    color: #000000;
+}
+
+
+
+/* poster */
+
+.poster{
+    margin-top: 155px;
+}
+
+.poster-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.poster-content{
+    max-width: 647px;
+}
+
+.poster-title{
+    font-family: 'Kodchasan';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 83px;
+    margin-bottom: 80px;
+}
+
+.poster-text{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 115px;
+}
+
+.button-order{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000;
+
+    padding: 18px 22px;
+
+    background: #B2AE7F;
+    border-radius: 5px;
+    
+}
+
+.button-catalog{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 54px;
+}
+
+
+/* description */
+
+.description{
+    margin-top: 303px;
+}
+
+
+.description-line{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 114px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #000;
+}
+
+.reverse{
+    border-bottom: unset;
+    flex-flow: row-reverse;
+}
+
+.reverse p{
+    text-align: left;
+}
+
+.description-content{
+    max-width: 407px;
+}
+
+.description-text{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: right;
+}
+
+
+/* products */
+
+.products{
+    margin-top: 134px;
+}
+
+.products-heading{
+    border-top: 1px solid #000;
+    padding: 95px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 34px;
+}
+
+.products-title{
+    font-family: 'Kodchasan';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.products-subTitle{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.products-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    padding: 13px 0 15px;
+}
+
+.product-block{
+    max-width: 355px;
+}
+
+.product-img{
+    border-radius: 5px 5px 0 0;
+}
+
+.product-content{
+    padding: 11px;
+    border-radius: 0 0 5px 5px;
+    background-color: #CCC9A3;
+}
+
+.product-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.product-head{
+    font-family: 'Kodchasan';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.price{
+    font-family: 'Kodchasan';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+}
+
+.product-description{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    padding-bottom: 29px;
+}
+
+.product-button{
+    background-color: #B2AE7F;
+    font-family: 'Kodchasan';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 9px 0;
+
+    border-radius: 5px;
+}
+
+
+/* instruction */
+
+.instruction{
+    margin-top: 214px;
+}
+
+.instruction-wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding: 17px 0;
+
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+/* blog */
+
+.blog{
+    margin-top: 259px;
+}
+
+.blog-heading{
+    padding: 95px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+
+.blog-head{
+    font-family: 'Kodchasan';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.blog-line{
+    display: flex;
+    column-gap: 68px;
+
+    padding: 65px 0 65px 75px;
+    border: 1px solid #000;
+}
+
+
+
+.blog-title{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    max-width: 350px;
+    margin-bottom: 60px;
+}
+
+.blog-button{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 5px;
+
+    padding: 15px 33px;
+
+    background-color: #B2AE7F;
+}
+
+/* footer */
+
+
+.footer{
+    margin-top: 97px;
+    background-color: #B2AE7F;
+}
+
+.footer-container{
+    max-width: 1460px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 158px 0 100px;
+}
+
+.footer-text-block{
+    max-width: 380px;
+}
+
+.footer-text{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 59px;
+}
+
+.copyright{
+    padding-top: 302px;
+}
+
+.footer-title{
+    font-family: 'Kodchasan';
+    font-weight: 275;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+
+.footer-nav{
+    display: flex;
+    column-gap: 257px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 44px;
+}
+
+.footer-list-link{
+    font-family: 'Slabo 13px';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+}

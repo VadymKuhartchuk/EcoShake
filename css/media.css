@@ -1,0 +1,264 @@
+@media (max-width:1430px) {
+    .poster-content{
+        max-width: 550px;
+    }
+    .poster-title{
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+    .poster-text{
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width:1230px) {
+    .poster{
+        margin-top: 100px;
+    }
+    .header-nav-list{
+        display: none;
+    }
+    .mobile-navBtn{
+        display: block;
+    }
+
+    .poster-content{
+        max-width: 450px;
+    }
+
+    .poster-title{
+        font-size: 45px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+    
+    .poster-text{
+        margin-bottom: 50px;
+    }
+
+    .button-order{
+        padding: 15px 18px;
+    }
+
+    .description{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width:1155px) { 
+   .products-wrapper{
+    justify-content: center;
+    column-gap: 30px;
+   }
+}
+
+@media (max-width:1055px) { 
+    .poster-line{
+        flex-direction: column;
+    }
+    .poster-content{
+        order: 1;
+    }
+    .poster-content{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .poster-title{
+        font-size: 84px;
+        line-height: 83px;
+        margin: 30px 0 40px;
+    }
+    
+    .poster-text{
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 90px;
+    }
+
+    .description-text{
+        font-size: 25px;
+        text-align: right;
+    }
+    .description-line{
+        column-gap: 60px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .blog-title{
+        font-size: 25px;
+        line-height: 39px;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .blog-line{
+        column-gap: 30px;
+    
+        padding: 30px 0 35px 40px;
+        border: 1px solid #000;
+    }
+
+    .footer-nav{
+        column-gap: 60px;
+    }
+
+    .footer-text-block{
+        max-width: 250px;
+    }
+
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .copyright{
+        padding-top: 200px;
+    }
+
+    .blog{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:719px) {
+
+    .mobile-nav{
+        padding: 300px 60px;
+    }
+    .blog-line{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px
+    }
+
+    .blog-title{
+        max-width: 100%;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 50px;
+    }
+    .footer-nav{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .footer-list{
+        column-gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-title{
+        margin: 20px 0;
+    }
+
+    .footer-text-block{
+        max-width: 100%;
+    }
+
+    .copyright{
+        padding-top: 50px;
+    }
+
+    
+        
+}
+
+@media (max-width:600px) {
+    .poster{
+        margin-top: 50px;
+    }
+    .mobile-nav{
+        padding: 300px 50px;
+        
+    }
+
+    .poster-title{
+        font-size: 70px;
+        line-height: 83px;
+        margin: 30px 0 40px;
+    }
+    
+    .poster-text{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .button-order{
+        font-size: 20px;
+        line-height: 39px;
+        padding: 15px 15px;
+    }
+    .description-content{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .description-line{
+        flex-direction: column;
+    }
+
+    .products-heading{
+        padding: 30px 0;
+    }
+
+    .instruction-wrapper{
+        flex-direction: column;
+        row-gap: 15px;
+        border-top: none;
+    }
+
+    .instruction{
+        margin-top: 100px;
+    }
+
+    .products{
+        margin-top: 30px;
+    }
+
+    .mobile-list-link{
+    font-size: 50px;
+    line-height: 105px;
+    }
+
+    .mobile-nav-close{
+        font-size: 60px;
+    }
+}
+
+@media (max-width:466px) {
+    .button-catalog{
+        display: none;
+    }  
+
+    .poster-title{
+        font-size: 55px;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .blog-title{
+        font-size: 20px;
+    }
+    
+    .header{
+        margin-top: 40px;
+    }
+
+    .mobile-list-link{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .mobile-nav-close{
+        font-size: 40px;
+    }
+}
